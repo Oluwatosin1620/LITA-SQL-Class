@@ -61,7 +61,7 @@ A special software program that helps users create and maintain a database, hand
   **Non-Relational Database (No SQL)**: organize data in anything but a traditional table. Anything that is not relational.
 
 
-  ### Writing Queries
+  ### Writing Queries ( Using SQL server)
 
 ![Creat table](https://github.com/user-attachments/assets/c474ef87-79b7-442a-8930-c986e54e3fde)
 
@@ -70,7 +70,13 @@ A special software program that helps users create and maintain a database, hand
 * (Number)- means the number of characters it should contain and not exceed
 * Difference between Date & Datetime- datetime comes with the hours and seconds
 
+![2024-11-06 (1)](https://github.com/user-attachments/assets/b95b2b94-f57b-4b2a-b572-73cace00a3af)
 
+To view the table created, SELECT function is used;
+--- 
+SQL
+SELECT * from Employee
+---
 
 
 
