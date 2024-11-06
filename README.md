@@ -111,9 +111,13 @@ add state_of_origin varchar (50)
 ~~~
 
 
+### SQL Clauses
+![2024-11-06 (4)](https://github.com/user-attachments/assets/560adf54-3a5b-4e2b-9f0e-999bd4e8e055)
 
+GROUP BY: it follows the WHERE clause in a SELECT statement and precedes the ORDER BY clause
 
-
+HAVING: used to specify a search condition for a group or an aggregate
+ORDER BY: sorts the result in ascending or descending order. DESC(descending)
 
 
 
