@@ -15,28 +15,28 @@ SQL is used for storing, retrieving, and managing data. It is a standard languag
 They are instructions used to communicate with the database. It is also used to perform specific tasks, functions, and queries of data. It performs various tasks like CREATE a table, ADD data to the table, DROP the table, MODIFY the table, and set permission for users.
 
 #### Types of SQL Command
-1.  DDL (Data Definition Language): for defining database schemas. **Schema** is the overall layout of the database. The command changes the structure of the table and is auto committed i.e. it permanently saves all the changes in the database. they are:
+1.  **DDL (Data Definition Language)**: for defining database schemas. **Schema** is the overall layout of the database. The command changes the structure of the table and is auto committed i.e. it permanently saves all the changes in the database. they are:
   * CREATE: to create a table
   * ALTER: to modify the characteristics of an existing attribute or add a new one
   * TRUNCATE: to delete all rows from the table
   * DROP: to delete the changes in the database i.e. to delete an entire table
 
-2. DML (Data Manipulation Language): for inserting, updating and deleting data from a database. It is responsible for all forms of changes in the database. It cannot permanently save all changes in the database. they are:
+2. **DML (Data Manipulation Language)**: for inserting, updating and deleting data from a database. It is responsible for all forms of changes in the database. It cannot permanently save all changes in the database. they are:
   * INSERT: to insert data in a row
   * UPDATE: to update values of a column in a row
   * DELETE: to delete records
 
-3. DCL (Data Control Language): for controlling access to the data in the database, user and permission management. It is used to GRANT and TAKEBACK authority from any database user. they are:
+3. **DCL (Data Control Language)**: for controlling access to the data in the database, user and permission management. It is used to GRANT and TAKEBACK authority from any database user. they are:
   * GRANT: to give user access privileges to a database.
   * REVOKE: to take back permission from the user.
 
-4. DQL ( Data Query Language): to query the database for information already stored there. Used to fetch data from the database and has only one command;
+4. **DQL ( Data Query Language)**: to query the database for information already stored there. Used to fetch data from the database and has only one command;
   * SELECT: to retrieve data from a database. To select an attribute based on the condition described by the WHERE clause
 
-5. TCL (Transaction Control Language): to manage transactions in a database. It allows statements to be grouped into logical transactions. they are:
+5. **TCL (Transaction Control Language)**: to manage transactions in a database. It allows statements to be grouped into logical transactions. they are:
   * COMMIT: to save transactions in a database and it permanently performs its tasks
   * ROLLBACK: to undo transactions that have not been saved
-  * SAVEPOINT: to roll back transaction to a certain point without rolling back to whenever necessary'
+  * SAVEPOINT: to roll back transaction to a certain point without rolling back to whenever necessary
 
     
 
