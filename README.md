@@ -72,11 +72,32 @@ A special software program that helps users create and maintain a database, hand
 
 ![2024-11-06 (1)](https://github.com/user-attachments/assets/b95b2b94-f57b-4b2a-b572-73cace00a3af)
 
+To insert more records in a table, INSERT function is used.
+
 To view the table created, SELECT function is used;
---- 
-SQL
+~~~SQL
 SELECT * from Employee
----
+~~~
+
+
+![Salary Table(2)](https://github.com/user-attachments/assets/41c0c41a-c597-4c19-8473-9100ca56596b)
+
+
+To perform the following functions:
+.....SUM, COUNT, MAX, MIN, AVERAGE.........
+
+~~~SQL
+SELECT SUM(salary) as TOTALSALARY from salary
+~~~
+
+~~~SQL
+SELECT AVG(salary) as AVERAGESALARY from salary
+~~~
+
+~~~SQL
+SELECT COUNT(staffid) as EmployeeCount from employee
+~~~
+
 
 
 
