@@ -101,9 +101,14 @@ SELECT COUNT(staffid) as EmployeeCount from employee
 
 **Update function**: to update the features of a table
 ![2024-11-06 (3)](https://github.com/user-attachments/assets/3a377093-4042-4728-bf61-7bd5344e1140)
+To make an auto-increment- (1,1) means from 1 and increase by 1
 
 
-
+To create an additional field (column)
+~~~SQL
+ALTER TABLE EMPLOYEE
+add state_of_origin varchar (50)
+~~~
 
 
 
