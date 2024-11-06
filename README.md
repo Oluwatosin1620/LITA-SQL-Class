@@ -36,10 +36,22 @@ They are instructions used to communicate with the database. It is also used to 
 5. **TCL (Transaction Control Language)**: to manage transactions in a database. It allows statements to be grouped into logical transactions. they are:
   * COMMIT: to save transactions in a database and it permanently performs its tasks
   * ROLLBACK: to undo transactions that have not been saved
-  * SAVEPOINT: to roll back transaction to a certain point without rolling back to whenever necessary
+  * SAVEPOINT: to roll back transactions to a certain point without rolling back whenever necessary
 
-    
 
+### Data Type
+It is used to define the value column can contain. Each column is required to have a name and data type in a database table.
+  * Binary Datatype- YES/NO, TRUE/FALSE
+  * Numeric Datatype- bit, tinybit, smallint, int, bigint, decimal, money, float, real, etc
+  * String Datatype- char, varchar, nchar, varbinary, mvarchar. Allows a group of characters to be stored that is enclosed in a single quote of table which could either be numbers, letters, symbols, etc.
+  * Data Datebase: to store values in date. date, datetime, timestamp.
+
+### keys
+It helps to create relationships between tables, maintain uniqueness and ensure data is consistent and valid. they are:
+  * Foreign Key         * Primary Key         * Candidate Key          * Composite Key         
+  * Database Key        * Super Key           * Surrogate Key          * Alternate Key
+* **Primary Key**: it uniquely identifies each record in a table
+* **Foreign Key**: a field in one table that uniquely identifies a row of another table creating a relationship between two tables.
 
 
 
