@@ -99,6 +99,8 @@ SELECT COUNT(staffid) as EmployeeCount from employee
 ~~~
 
 
+**Update function**: to update the features of a table
+![2024-11-06 (3)](https://github.com/user-attachments/assets/3a377093-4042-4728-bf61-7bd5344e1140)
 
 
 
