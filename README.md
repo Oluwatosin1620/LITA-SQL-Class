@@ -10,3 +10,29 @@ SQL is used for storing, retrieving, and managing data. It is a standard languag
 **Data in Database** is stored in tables that can be thought of just like Excel spreadsheets. All data in the same column must match in terms of data type.
 **A table** is an organised data composed of rows and columns.
 
+
+### SQL Command
+They are instructions used to communicate with the database. It is also used to perform specific tasks, functions, and queries of data. It performs various tasks like CREATE a table, ADD data to the table, DROP the table, MODIFY the table, and set permission for users.
+
+#### Types of SQL Command
+1.  DDL (Data Definition Language): for defining database schemas. **Schema** is the overall layout of the database. The command changes the structure of the table and is auto committed i.e. it permanently saves all the changes in the database. they are:
+  * CREATE: to create a table
+  * ALTER: to modify the characteristics of an existing attribute or add a new one
+  * TRUNCATE: to delete all rows from the table
+  * DROP: to delete the changes in the database i.e. to delete an entire table
+
+2. DML(Data Manipulation Language): for inserting, updating and deleting data from a database.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
