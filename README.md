@@ -54,7 +54,14 @@ It helps to create relationships between tables, maintain uniqueness and ensure 
 * **Foreign Key**: a field in one table that uniquely identifies a row of another table creating a relationship between two tables.
 
 
+### Database Management System (DBMS)
+A special software program that helps users create and maintain a database, handles security backups, importing/exporting data, and makes it easy to interact with software applications.
+**Types of Database
+  **Relational Database**: organize data into one or more tables and each table has a unique key identifying each row
+  **Non-Relational Database (No SQL)**: organize data in anything but a traditional table. Anything that is not relational.
 
+
+  ### Writing Queries
 
 
 
