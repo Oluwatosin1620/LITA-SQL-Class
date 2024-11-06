@@ -63,6 +63,7 @@ A special software program that helps users create and maintain a database, hand
 
   ### Writing Queries
 
+![Creat table](https://github.com/user-attachments/assets/c474ef87-79b7-442a-8930-c986e54e3fde)
 
 
 
